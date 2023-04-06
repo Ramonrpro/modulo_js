@@ -1,0 +1,55 @@
+
+
+.container{
+    background-image: linear-gradient(to bottom, #fff, #c4e0f7 ,#d1d9f6 );
+    padding: 50px 20px;
+    margin: 0 30%;
+    border: black solid;
+}
+
+h1, h2, p{
+    display: flex;
+    justify-content:center ;
+    
+}
+
+p{
+    font-size: 18px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+form input, button{
+    margin-top: 15px;
+    width: 150px;
+}
+
+button{
+    background-image: linear-gradient(to right, #9cccf4, #cde2ff);
+    padding: 8px;
+    color: #fff;
+    box-shadow: 0 5px 20px #89caff94;
+}
+
+.sucess-msg{
+    text-align: center;
+    width: 97%;
+    font-size: 20px;
+    background-color: rgb(18, 195, 101);
+    padding: 10px 8px;
+    color: #fff;
+    display: none;
+}
+
+.erro-msg{
+    text-align: center;
+    width: 97%;
+    font-size: 20px;
+    background-color: red;
+    padding: 10px 8px;
+    color: #fff;
+    display: none;
+}
